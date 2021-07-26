@@ -1,4 +1,4 @@
-package API
+package PortScanner
 
 import (
 	"net"
