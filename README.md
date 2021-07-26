@@ -4,8 +4,8 @@ How to use exmaple:
 
 ```
 func main() {
-	var scanner *API.Scanner
-	scanner = new(API.Scanner)
+	var scanner *PortScanner.Scanner
+	scanner = new(PortScanner.Scanner)
 	scanner.Ip = "172.217.13.206"
 	scanner.MinPort = 0
 	scanner.MaxPort = 2048
